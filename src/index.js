@@ -4,7 +4,7 @@ import './view/App.css';
 import './view/index.css';
 import {App} from './view/App.js';
 
-const root = ReactDOM.hydrateRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />

@@ -7,6 +7,9 @@ export const BarChart = () => {
   const [chartOpt, setChartOpt] = useState({
     options: {
       chart: {
+        animations: {
+          enabled: false
+        },
         id: "basic-bar"
       },
       xaxis: {

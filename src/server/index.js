@@ -20,5 +20,5 @@ require('@babel/register')({
     ignore: [/node_module/],
     presets: ['@babel/preset-env', '@babel/preset-react']
 })
-// require('./config/window')
+require('./config/window')
 require('./server')
